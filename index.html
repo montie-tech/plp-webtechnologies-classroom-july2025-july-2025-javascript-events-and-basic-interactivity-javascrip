@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>🌐 Montie Web Page</h1>
+    <p>Form validation and interactive features</p>
+  </header>
+
+  <!-- FORM SECTION -->
+  <section id="form-section">
+    <h2>Register Here</h2>
+    <form id="registerForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <button type="submit">Submit</button>
+      <p id="formMessage" class="error"></p>
+    </form>
+  </section>
+
+  <!-- INTERACTIVE SECTION 1 -->
+  <section id="counter-section">
+    <h2>Counter Feature</h2>
+    <p>Click the buttons to increase or decrease the counter.</p>
+    <p id="counter">0</p>
+    <button id="increaseBtn">Increase</button>
+    <button id="decreaseBtn">Decrease</button>
+  </section>
+
+  <!-- INTERACTIVE SECTION 2 -->
+  <section id="theme-section">
+    <h2>Theme Toggle</h2>
+    <p>Click the button to switch between Light and Dark mode.</p>
+    <button id="themeToggle">Toggle Theme</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
